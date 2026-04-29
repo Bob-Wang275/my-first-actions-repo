@@ -2,6 +2,10 @@ name: My First Workflow
 
 on: [push]
 
+env:
+  GREETING: Hello
+  NAME: Wenxing
+
 jobs:
   build:
     runs-on: ubuntu-latest
